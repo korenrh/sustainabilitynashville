@@ -2,7 +2,7 @@
 
 In the project directory, you can run:
 
-### `npm i`, then `npm run dev`
+### `npm i`, then `npm start`
 OR
 ### `yarn start`
 
