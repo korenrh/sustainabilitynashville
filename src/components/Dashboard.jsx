@@ -1,7 +1,7 @@
 import React from "react";
 import Home from "./Home";
 import About from "./About";
-import { Navbar, NavDropdown, Form, FormControl, Button } from "react-bootstrap";
+import { Navbar, NavDropdown, Form, FormControl, Button} from "react-bootstrap";
 import {
   BrowserRouter as Router,
   Switch,
@@ -25,11 +25,10 @@ function Dashboard() {
                 <Link className="nav-link" to="/about">About</Link>
               </li>
               <NavDropdown title="Get Involved" id="dropdown1" className="font-weight-bold">
-                <NavDropdown.Item href="#action/3.2">Provide Data</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Learn More</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.4">Contact Us</NavDropdown.Item>
+                <NavDropdown.Item href="https://data.nashville.gov/">Explore Data</NavDropdown.Item>
+                <NavDropdown.Item href="https://urbangreenlab.org/nashville-ej/">Learn More</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.1">Report Concern</NavDropdown.Item>
+                <NavDropdown.Item href="mailto:reilly.h.koren@vanderbilt.edu">Contact Us</NavDropdown.Item>
               </NavDropdown>
             </ul>
             <Form inline className="ml-auto">
